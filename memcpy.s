@@ -1,7 +1,5 @@
 // Memcpy implementation ARM optimized using FPU registers.
-// This implementation breaks down copying into several blocks: 128, 32, 4, and 1 byte.
-// Using the FPU allows us to copy 8 bytes at a time using special register from D0 from FPU co-processor.
-// Basically only R0-R3, D0 are used. Using more than 1 register of FPU doesn't make any sense because of the small performance gains(probably due to pipelining).
+// This implementation breaks down copying into several blocks: 128, 32, 8, 4, and 1 byte.
 // Author: Arkadiusz Szlanta
 
 .syntax unified
