@@ -2,6 +2,11 @@
  * Encryptor
  * Author: Arkadiusz Szlanta
  * Date: 30 Dec 2024
+ *
+ * License:
+ * Use at your own risk. The author(s) hold no responsibility for any damages
+ * or losses resulting from the use of this software.
+ *
  */
 
 #ifndef ENCRYPTOR_HPP
